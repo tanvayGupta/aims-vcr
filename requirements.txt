@@ -1,9 +1,7 @@
 torch
-torchvision
-transformers
+transformers @ git+https://github.com/huggingface/transformers.git
 accelerate
-Pillow
-git+https://github.com/huggingface/transformers
-accelerate 
+datasets
 qwen-vl-utils
 bitsandbytes
+pillow
