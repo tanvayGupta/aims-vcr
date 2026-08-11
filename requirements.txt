@@ -3,3 +3,7 @@ torchvision
 transformers
 accelerate
 Pillow
+git+https://github.com/huggingface/transformers
+accelerate 
+qwen-vl-utils
+bitsandbytes
