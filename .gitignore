@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model / dataset files
+models/
+data/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Environment
+.env
+
+# OS
+.DS_Store
