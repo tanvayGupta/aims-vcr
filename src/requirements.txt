@@ -1,8 +1,0 @@
-torch
-accelerate
-qwen-vl-utils
-bitsandbytes
-datasets
-Pillow
-requests
-git+https://github.com/huggingface/transformers
