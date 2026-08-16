@@ -1,5 +1,7 @@
 # Qwen3-VL-4B Fine-Tuning on Visual Commonsense Reasoning (VCR)
 
+# Please switch from the branch main to aims
+
 LoRA fine-tuning pipeline adapting `Qwen/Qwen3-VL-4B-Instruct` for the VCR task (answer-selection + rationale-selection) on the `Rowan/vcr` dataset. Built as part of the AIMS recruitment task, Round 2.
 
 - **HF Model (LoRA adapter):** [zzephyrr/qwen3vl-vcr-lora](https://huggingface.co/zzephyrr/qwen3vl-vcr-lora)
@@ -62,9 +64,9 @@ Note: This shows the results of the best model only, not the baselines, check ou
 
 | Metric | Result |
 |---|---|
-| Answer-selection accuracy | 60% |
-| Rationale-selection accuracy | 36% |
-| Answer and Rationale accuracy | 20% |
+| Answer-selection accuracy | 66% |
+| Rationale-selection accuracy | 48% |
+| Answer and Rationale accuracy | 30% |
 
 ## Experiment Tracking & Publishing
 
@@ -81,6 +83,6 @@ model = PeftModel.from_pretrained(base, "zzephyrr/qwen3vl-vcr-lora")
 
 ## Repo Contents
 
-- `v5.ipynb` — full training + evaluation notebook
+- `v9FINAL.ipynb` — full training + evaluation notebook
 - `VCR_FineTuning_Report.docx` — written report (architecture, strategy, results, design choices)
 - `predictions.json` — model predictions on the test set
