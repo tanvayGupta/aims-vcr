@@ -64,9 +64,9 @@ Note: This shows the results of the best model only, not the baselines, check ou
 
 | Metric | Result |
 |---|---|
-| Answer-selection accuracy | 66% |
-| Rationale-selection accuracy | 48% |
-| Answer and Rationale accuracy | 30% |
+| Answer-selection accuracy | 66.7% |
+| Rationale-selection accuracy | 44.3% |
+| Answer and Rationale accuracy | 36.7% |
 
 ## Experiment Tracking & Publishing
 
@@ -78,7 +78,7 @@ from peft import PeftModel
 from transformers import Qwen3VLForConditionalGeneration
 
 base = Qwen3VLForConditionalGeneration.from_pretrained("Qwen/Qwen3-VL-4B-Instruct")
-model = PeftModel.from_pretrained(base, "zzephyrr/qwen3vl-vcr-lora")
+model = PeftModel.from_pretrained(base, "zzephyrr/qwen3vl-vcr-lora-v2")
 ```
 
 ## Repo Contents
