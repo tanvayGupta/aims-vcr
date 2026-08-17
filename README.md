@@ -1,5 +1,7 @@
 # Qwen3-VL-4B Fine-Tuning on Visual Commonsense Reasoning (VCR)
 
+## Please change the branch to aims before continuing
+
 LoRA fine-tuning pipeline adapting `Qwen/Qwen3-VL-4B-Instruct` for the VCR task (answer-selection + rationale-selection) on the `Rowan/vcr` dataset. Built as part of the AIMS recruitment task, Round 2.
 
 - **HF Model (LoRA adapter):** [zzephyrr/qwen3vl-vcr-lora](https://huggingface.co/zzephyrr/qwen3vl-vcr-lora)
